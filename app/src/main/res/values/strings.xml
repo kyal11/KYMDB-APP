@@ -1,3 +1,73 @@
 <resources>
     <string name="app_name">KYMDB</string>
+    
+    <string name="movie_name">Judul Film</string>
+    <string name="release_date">Tahun Rilis</string>
+    <string name="genre">Genre Film</string>
+    <string name="description">Deskripsi</string>
+    
+    <string-array name="data__movie">
+        <item>The Shawshank Redemption</item>
+        <item>The Dark Knight</item>
+        <item>Forrest Gump</item>
+        <item>Pulp Fiction</item>
+        <item>The Lord of the Rings: The Return of the King</item>
+        <item>The Matrix</item>
+        <item>La la land</item>
+        <item>Interstellar</item>
+        <item>The Pianist</item>
+        <item>Gekijouban Violet Evergarden</item>
+    </string-array>
+    
+    <integer-array name="data_release">
+        <item>1994</item>
+        <item>2008</item>
+        <item>1994</item>
+        <item>1994</item>
+        <item>2003</item>
+        <item>1999</item>
+        <item>2016</item>
+        <item>2014</item>
+        <item>2002</item>
+        <item>2020</item>
+    </integer-array>
+
+    <string-array name="data_genre">
+        <item>Drama</item>
+        <item>Action,Crime,Drama</item>
+        <item>Drama,Romance</item>
+        <item>Crime,Drama</item>
+        <item>Action,Adventure,Drama</item>
+        <item>Action,Sci-Fi</item>
+        <item>Comedy,Drama,Music</item>
+        <item>Adventure,Drama,Sci-Fi</item>
+        <item>Biography,Drama,Music</item>
+        <item>Animation,Drama,Fantasy</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>In 1947, Andy Dufresne (Tim Robbins), a banker in Maine, is convicted of murdering his wife and her lover, a golf pro. Since the state of Maine has no death penalty, he is given two consecutive life sentences and sent to the notoriously harsh Shawshank Prison.</item>
+        <item>The plot follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who form an alliance to dismantle organized crime in Gotham City. Their efforts are derailed by the Joker, an anarchistic mastermind who seeks to test how far the Batman will go to save the city from chaos.</item>
+        <item>The film begins with a feather falling to the feet of Forrest Gump who is sitting at a bus stop in Savannah, Georgia. Forrest picks up the feather and puts it in the book Curious George, then tells the story of his life to a woman seated next to him. The listeners at the bus stop change regularly throughout his narration, each showing a different attitude ranging from disbelief and indifference to rapt veneration.</item>
+        <item>Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.</item>
+        <item>The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Saurons evil army at the stone city of Minas Tirith</item>
+        <item>Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.</item>
+        <item>Aspiring actress serves lattes to movie stars in between auditions and jazz musician Sebastian scrapes by playing cocktail-party gigs in dingy bars. But as success mounts, they are faced with decisions that fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.</item>
+        <item>Earths future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankinds survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.</item>
+        <item>In this adaptation of the autobiography "The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945," Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.</item>
+        <item>After the aftermath of a war, a young girl who was used as a tool for war learned to live. With the scars of burns, she goes back to her past to feel the true feelings of the Majors, "I love you."</item>
+    </string-array>
+
+    <string-array name="data_poster">
+        <item>https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UY480_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMTIzMDc4MzA2Ml5BMl5BanBnXkFtZTcwODU0MzA3MQ@@._V1_FMjpg_UY473_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UY463_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY465_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY474_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY480_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UY474_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UY474_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNzMxZDFiMGYtNWIyNS00ZDQyLWFhMTItZTE1M2I0MmQyZjJkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UY479_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMzcxYTIxMzItNWE0MC00ZTQ4LTgwZjQtYzAxMWVkMWI3YzZkXkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UY452_.jpg</item>
+    </string-array>
 </resources>
