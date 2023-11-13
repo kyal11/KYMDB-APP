@@ -7,7 +7,7 @@
     <string name="description">Deskripsi</string>
     <string name="genretext">Genre :</string>
     <string name="descriptiontext">Description :</string>
-    <string-array name="data__movie">
+    <string-array name="data_movie">
         <item>The Shawshank Redemption</item>
         <item>The Dark Knight</item>
         <item>Forrest Gump</item>
