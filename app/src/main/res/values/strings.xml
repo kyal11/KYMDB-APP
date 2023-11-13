@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">KYMDB</string>
     
-    <string name="movie_name">Judul Film</string>
+    <string name="movie_title">Judul Film</string>
     <string name="release_date">Tahun Rilis</string>
     <string name="genre">Genre Film</string>
     <string name="description">Deskripsi</string>
-    
+    <string name="genretext">Genre :</string>
+    <string name="descriptiontext">Description :</string>
     <string-array name="data__movie">
         <item>The Shawshank Redemption</item>
         <item>The Dark Knight</item>
