@@ -1,12 +1,20 @@
 <resources>
     <string name="app_name">KYMDB</string>
-    
+
     <string name="movie_title">Judul Film</string>
     <string name="release_date">Tahun Rilis</string>
     <string name="genre">Genre Film</string>
     <string name="description">Deskripsi</string>
     <string name="genretext">Genre :</string>
     <string name="descriptiontext">Description :</string>
+
+    <string name="about">About</string>
+    <string name="Author">Rizky Al Arief</string>
+    <string name="fullname">FullName :</string>
+    <string name="domicile">Domicile :</string>
+    <string name="domicileAuthor">Bogor</string>
+    <string name="email">Email :</string>
+    <string name="emailAuthor">rizkyalarief11@gmail.com</string>
     <string-array name="data_movie">
         <item>The Shawshank Redemption</item>
         <item>The Dark Knight</item>
@@ -19,7 +27,7 @@
         <item>The Pianist</item>
         <item>Gekijouban Violet Evergarden</item>
     </string-array>
-    
+
     <integer-array name="data_release">
         <item>1994</item>
         <item>2008</item>

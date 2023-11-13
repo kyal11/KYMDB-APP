@@ -1,9 +1,14 @@
-package com.example.kymdb
+package com.example.kymdb.model
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kymdb.Movies
+import com.example.kymdb.R
+import com.example.kymdb.adapter.ListMovieAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvMovies: RecyclerView
@@ -39,5 +44,19 @@ class MainActivity : AppCompatActivity() {
         rvMovies.layoutManager = LinearLayoutManager(this)
         val listMovieAdapter = ListMovieAdapter(list)
         rvMovies.adapter = listMovieAdapter
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.action_about -> {
+
+            }
+         }
+        return super.onOptionsItemSelected(item)
     }
 }

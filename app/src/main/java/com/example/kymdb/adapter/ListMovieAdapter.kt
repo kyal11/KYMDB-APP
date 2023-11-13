@@ -1,4 +1,4 @@
-package com.example.kymdb
+package com.example.kymdb.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.kymdb.Movies
+import com.example.kymdb.R
 
 class ListMovieAdapter(private val listMovie : ArrayList<Movies>) : RecyclerView.Adapter<ListMovieAdapter.ListViewHolder>() {
 
