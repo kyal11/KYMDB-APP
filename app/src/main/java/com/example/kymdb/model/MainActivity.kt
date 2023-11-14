@@ -1,5 +1,6 @@
 package com.example.kymdb.model
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.kymdb.Movies
 import com.example.kymdb.R
 import com.example.kymdb.adapter.ListMovieAdapter
+import com.example.kymdb.menu.about
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvMovies: RecyclerView
@@ -54,7 +56,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId) {
             R.id.action_about -> {
-
+                val MoveAbout = Intent(this@MainActivity, about::class.java)
+                startActivity(MoveAbout)
             }
          }
         return super.onOptionsItemSelected(item)
