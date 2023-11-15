@@ -43,15 +43,15 @@
 
     <string-array name="data_genre">
         <item>Drama</item>
-        <item>Action,Crime,Drama</item>
-        <item>Drama,Romance</item>
-        <item>Crime,Drama</item>
-        <item>Action,Adventure,Drama</item>
-        <item>Action,Sci-Fi</item>
-        <item>Comedy,Drama,Music</item>
-        <item>Adventure,Drama,Sci-Fi</item>
-        <item>Biography,Drama,Music</item>
-        <item>Animation,Drama,Fantasy</item>
+        <item>Action, Crime, Drama</item>
+        <item>Drama, Romance</item>
+        <item>Crime, Drama</item>
+        <item>Action, Adventure, Drama</item>
+        <item>Action, Sci-Fi</item>
+        <item>Comedy, Drama, Music</item>
+        <item>Adventure, Drama, Sci-Fi</item>
+        <item>Biography, Drama, Music</item>
+        <item>Animation, Drama, Fantasy</item>
     </string-array>
 
     <string-array name="data_description">

@@ -35,12 +35,12 @@ class ListMovieAdapter(private val listMovie : ArrayList<Movies>) : RecyclerView
         holder.tvYear.text = year.toString()
         holder.tvGenre.text = genre
         holder.tvDescription.text = description
-        Glide.with(holder.itemView.context)     //Insert Poster
+        Glide.with(holder.itemView.context)
             .load(poster)
             .into(holder.imgPoster)
         holder.itemView.setOnClickListener {
             val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
-            intentDetail.putExtra("KEY_MOVIE", listMovie[holder.adapterPosition])
+            intentDetail.putExtra(DetailActivity.KEY_MOVIE, listMovie[holder.adapterPosition])
             holder.itemView.context.startActivity(intentDetail)
         }
     }
