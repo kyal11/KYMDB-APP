@@ -1,5 +1,6 @@
 package com.example.kymdb.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.kymdb.DetailMovies.DetailActivity
 import com.example.kymdb.Movies
 import com.example.kymdb.R
 
@@ -36,9 +38,13 @@ class ListMovieAdapter(private val listMovie : ArrayList<Movies>) : RecyclerView
         Glide.with(holder.itemView.context)     //Insert Poster
             .load(poster)
             .into(holder.imgPoster)
-
-
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra("KEY_MOVIE", listMovie[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 
-
 }
+
+
