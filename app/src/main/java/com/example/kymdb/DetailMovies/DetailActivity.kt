@@ -1,9 +1,11 @@
 package com.example.kymdb.DetailMovies
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
@@ -24,6 +26,7 @@ class DetailActivity : AppCompatActivity() {
         val detailYear: TextView = findViewById(R.id.tv_releasedate)
         val detailGenre: TextView = findViewById(R.id.tv_genre)
         val detailDescription: TextView = findViewById(R.id.tv_description)
+        val shareButton: Button = findViewById(R.id.action_share)
 
         val datamovie = if (Build.VERSION.SDK_INT > 33) {
             intent.getParcelableExtra<Movies>(KEY_MOVIE, Movies::class.java)
@@ -42,6 +45,18 @@ class DetailActivity : AppCompatActivity() {
             detailDescription.text = datamovie.description
         } else {
             print("Error Data Movies")
+        }
+        shareButton.setOnClickListener {
+            val goShare = Intent()
+            goShare.action = Intent.ACTION_SEND
+            if (datamovie != null) {
+                goShare.putExtra(
+                    Intent.EXTRA_TEXT,
+                    "Hey I want to recommend a movie ${datamovie.title} "
+                )
+            }
+            goShare.type = "text/plain"
+            startActivity(Intent.createChooser(goShare, "Share To:"))
         }
     }
 }
