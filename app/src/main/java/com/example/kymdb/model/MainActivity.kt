@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
         val dataYear = resources.getIntArray(R.array.data_release)
         val dataGenre = resources.getStringArray(R.array.data_genre)
         val dataDirector = resources.getStringArray(R.array.data_director)
+        val dataProducer = resources.getStringArray(R.array.data_producer)
+        val dataWriter = resources.getStringArray(R.array.data_writer)
+        val dataActor = resources.getStringArray(R.array.data_topactor)
+        val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPoster = resources.getStringArray(R.array.data_poster)
         val listMovies = ArrayList<Movies>()
 
