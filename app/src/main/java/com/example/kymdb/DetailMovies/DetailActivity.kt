@@ -1,10 +1,10 @@
 package com.example.kymdb.DetailMovies
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -18,6 +18,7 @@ class DetailActivity : AppCompatActivity() {
 
     }
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -25,6 +26,10 @@ class DetailActivity : AppCompatActivity() {
         val detailTitle: TextView = findViewById(R.id.tv_title)
         val detailYear: TextView = findViewById(R.id.tv_releasedate)
         val detailGenre: TextView = findViewById(R.id.tv_genre)
+        val detailDirector: TextView = findViewById(R.id.tv_director)
+        val detailProducer: TextView = findViewById(R.id.tv_producer)
+        val detailWriter: TextView = findViewById(R.id.tv_writer)
+        val detailActor: TextView = findViewById(R.id.tv_actor)
         val detailDescription: TextView = findViewById(R.id.tv_description)
         val shareButton: Button = findViewById(R.id.action_share)
 
@@ -42,6 +47,10 @@ class DetailActivity : AppCompatActivity() {
             detailTitle.text = datamovie.title
             detailYear.text = datamovie.year.toString()
             detailGenre.text = datamovie.genre
+            detailDirector.text = datamovie.director
+            detailProducer.text = datamovie.producer
+            detailWriter.text = datamovie.writer
+            detailActor.text = datamovie.actor
             detailDescription.text = datamovie.description
         } else {
             print("Error Data Movies")

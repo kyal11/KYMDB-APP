@@ -30,12 +30,13 @@ class MainActivity : AppCompatActivity() {
         val dataTitle = resources.getStringArray(R.array.data_movie)
         val dataYear = resources.getIntArray(R.array.data_release)
         val dataGenre = resources.getStringArray(R.array.data_genre)
-        val dataDescription = resources.getStringArray(R.array.data_description)
+        val dataDirector = resources.getStringArray(R.array.data_director)
         val dataPoster = resources.getStringArray(R.array.data_poster)
         val listMovies = ArrayList<Movies>()
 
         for (i in dataTitle.indices) {
-            val movies = Movies(dataTitle[i], dataYear[i], dataGenre[i], dataDescription[i], dataPoster[i])
+            val movies = Movies(dataTitle[i], dataYear[i], dataGenre[i], dataDirector[i], dataProducer[i] ,
+                dataWriter[i], dataActor[i], dataDescription[i], dataPoster[i])
             listMovies.add(movies)
         }
 

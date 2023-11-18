@@ -5,8 +5,11 @@
          <item name="colorPrimary">@color/green_tosca</item>
     </style>
 
-    <style name="noActionBar" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/green_tosca</item>
+    <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/green_tosca</item>
     </style>
+
     <style name="Theme.KYMDB" parent="Base.Theme.KYMDB" />
 </resources>

@@ -30,7 +30,7 @@ class ListMovieAdapter(private val listMovie : ArrayList<Movies>) : RecyclerView
     override fun getItemCount() : Int = listMovie.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-       val (title, year, genre, description, poster) = listMovie[position]
+       val (title, year, genre, director, producer, writer, actor, description, poster) = listMovie[position]
         holder.tvTitle.text = title
         holder.tvYear.text = year.toString()
         holder.tvGenre.text = genre

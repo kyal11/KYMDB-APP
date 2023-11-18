@@ -7,6 +7,14 @@
     <string name="description">Deskripsi</string>
     <string name="genretext">Genre :</string>
     <string name="descriptiontext">Description :</string>
+    <string name="directortext">Director :</string>
+    <string name="director">Director</string>
+    <string name="producertext">Producer :</string>
+    <string name="producer">Producer</string>
+    <string name="writertext">Writer :</string>
+    <string name="writer">Writer</string>
+    <string name="actortext">Actor :</string>
+    <string name="actor">Actor</string>
 
     <string name="about">About</string>
     <string name="Author">Rizky Al Arief</string>
@@ -80,5 +88,57 @@
         <item>https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UY474_.jpg</item>
         <item>https://m.media-amazon.com/images/M/MV5BNzMxZDFiMGYtNWIyNS00ZDQyLWFhMTItZTE1M2I0MmQyZjJkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UY479_.jpg</item>
         <item>https://m.media-amazon.com/images/M/MV5BMzcxYTIxMzItNWE0MC00ZTQ4LTgwZjQtYzAxMWVkMWI3YzZkXkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UY452_.jpg</item>
+    </string-array>
+
+    <string-array name="data_director">
+        <item>Frank Darabont</item>
+        <item>Christopher Nolan</item>
+        <item>Robert Zemeckis</item>
+        <item>Quentin Tarantino</item>
+        <item>Peter Jackson</item>
+        <item>Lilly Wachowski, Lana Wachowski</item>
+        <item>Damien Chazelle</item>
+        <item>Christopher Nolan</item>
+        <item>Roman Polanski</item>
+        <item>Taichi Ishidate</item>
+    </string-array>
+
+    <string-array name="data_producer">
+        <item>Niki Marvin</item>
+        <item>Emma Thomas, Charles Roven, Christopher Nolan</item>
+        <item>Wendy Finerman, Steve Starkey, Steve Tisch</item>
+        <item>Lawrence Bender</item>
+        <item>Barrie M. Osborne, Fran Walsh</item>
+        <item>Joel Silver</item>
+        <item>Fred Berger, Jordan Horowitz, Marc Platt, Gary Gilbert</item>
+        <item>Emma Thomas, Christopher Nolan, Lynda Obst</item>
+        <item>Robert Benmussa, Roman Polanski, Alain Sarde</item>
+        <item>Shigeru Saito, Shinichi Nakamura, Kazusa Umade, Suzuki Megumi</item>
+    </string-array>
+    
+    <string-array name="data_writer">
+        <item>Frank Darabont</item>
+        <item>Jonathan Nolan, Christopher Nolan</item>
+        <item>Winston Groom, Eric Roth</item>
+        <item>Quentin Tarantino, Quentin Tarantino, Roger Avary</item>
+        <item>Peter Jackson, Philippa Boyens, Fran Walsh</item>
+        <item>Lilly Wachowski, Lana Wachowski</item>
+        <item>Damien Chazelle</item>
+        <item>Jonathan Nolan, Christopher Nolan</item>
+        <item>Wladyslaw Szpilman, Ronald Harwood</item>
+        <item>Kana Akatsuki, Reiko Yoshida</item>
+    </string-array>
+
+    <string-array name="data_topactor">
+        <item>Tim Robbins, Morgan Freeman</item>
+        <item>Christian Bale, Heath Ledger, Aaron Eckhart</item>
+        <item>Tom Hanks, Robin Wright, Gary Sinise</item>
+        <item>John Travolta, Uma Thurman, Samuel L. Jackson</item>
+        <item>Elijah Wood, Viggo Mortensen, Ian McKellen</item>
+        <item>Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</item>
+        <item>Ryan Gosling, Emma Stone, John Legend</item>
+        <item>Matthew McConaughey, Anne Hathaway, Jessica Chastain</item>
+        <item>Adrien Brody, Thomas Kretschmann, Frank Finlay</item>
+        <item>Yui Ishida, Daisuke Namikawa, Takehito Koyasu</item>
     </string-array>
 </resources>

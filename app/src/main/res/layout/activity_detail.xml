@@ -13,12 +13,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
-                android:layout_width="150dp"
-                android:layout_height="200dp"
+                android:layout_width="160dp"
+                android:layout_height="230dp"
                 android:layout_marginStart="131dp"
                 android:layout_marginTop="41dp"
                 android:layout_marginEnd="130dp"
@@ -47,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="@string/movie_title"
-                android:textAlignment="gravity"
+                android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -79,46 +80,149 @@
 
             <TextView
                 android:id="@+id/tv_genre"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
                 android:text="@string/genre"
                 android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
                 app:layout_constraintTop_toBottomOf="@+id/tv_genre_title" />
 
             <TextView
-                android:id="@+id/tv_descriptiontext"
+                android:id="@+id/tv_directortext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@string/descriptiontext"
+                android:text="@string/directortext"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
                 app:layout_constraintTop_toBottomOf="@+id/tv_genre" />
 
             <TextView
-                android:id="@+id/tv_description"
-                android:layout_width="330dp"
+                android:id="@+id/tv_director"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/director"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:justificationMode="inter_word"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_directortext" />
+
+            <TextView
+                android:id="@+id/tv_producertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/producertext"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_director" />
+
+            <TextView
+                android:id="@+id/tv_producer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/producer"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.003"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_producertext" />
+
+            <TextView
+                android:id="@+id/tv_writerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/writertext"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_producer" />
+
+            <TextView
+                android:id="@+id/tv_writer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/writer"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_writerText" />
+
+            <TextView
+                android:id="@+id/tv_actortext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/actortext"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_writer" />
+
+            <TextView
+                android:id="@+id/tv_actor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/actor"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_actortext" />
+
+            <TextView
+                android:id="@+id/tv_descriptiontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/descriptiontext"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_actor" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
                 android:text="@string/description"
                 android:textSize="16sp"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/tv_genre_title"
                 app:layout_constraintTop_toBottomOf="@+id/tv_descriptiontext" />
 
             <Button
                 android:id="@+id/action_share"
                 android:layout_width="100dp"
-                android:layout_height="37dp"
-                android:layout_marginTop="24dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/green_tosca"
                 android:text="@string/share"
                 app:iconPadding="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_description" />
         </androidx.constraintlayout.widget.ConstraintLayout>
